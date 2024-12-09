@@ -1,0 +1,28 @@
+
+@keyframes meteor {
+    0% {
+      transform: translateY(-1000px) translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(1000px) translateX(100px);
+      opacity: 0;
+    }
+  }
+  
+  .meteor {
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100px;
+    background: linear-gradient(to bottom, white, transparent);
+    animation: meteor 1s linear infinite;
+  }
+  
+  .meteor:nth-child(1) { left: 20%; animation-delay: 0s; }
+  .meteor:nth-child(2) { left: 40%; animation-delay: 0.2s; }
+  .meteor:nth-child(3) { left: 60%; animation-delay: 0.4s; }
+  .meteor:nth-child(4) { left: 80%; animation-delay: 0.6s; }
+  
+
+  

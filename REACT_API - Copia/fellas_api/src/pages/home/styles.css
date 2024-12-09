@@ -1,0 +1,113 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Exemplo de cor de fundo */
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px; /* Ajuste se necessário */
+}
+
+h1.text-center {
+  font-size: 42px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ffffff;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin-top: 0; /* Remove qualquer margem superior padrão */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: rgba(46, 45, 78, 0.8);
+  max-width: 70%;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+form button {
+  border-radius: 30px;
+  background-color: #8b8ae1;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+}
+
+form button:hover {
+  opacity: 0.8;
+}
+
+form input {
+  border: 1px solid #48456c;
+  border-radius: 30px;
+  height: 40px;
+  background-color: #363653;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* Alinha o conteúdo dentro do card verticalmente */
+  justify-content: center;
+  align-items: flex-start; /* Centraliza o texto dentro do card */
+  background-color: #2e2d4e;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: left; /* Justifica o texto à esquerda */
+}
+
+.card p {
+  color: #fff;
+  font-weight: bold;
+  margin: 5px 0; /* Espaçamento entre parágrafos */
+}
+
+.card span {
+  font-weight: normal;
+}
+
+.card button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.card button:hover {
+  opacity: 0.5;
+}
+
+/* Adicione as classes para definir a cor do texto como branca */
+.carregando,
+.disponivel,
+.lista-dominios h2 {
+  color: #ffffff; /* Define a cor do texto como branca */
+}
